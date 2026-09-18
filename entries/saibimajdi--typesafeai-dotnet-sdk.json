@@ -1,0 +1,6 @@
+{
+  "name": "typesafeai-dotnet-sdk",
+  "repository": "saibimajdi/typesafeai-dotnet-sdk",
+  "description": "Community .NET SDK for the TypeSafe AI System One API — typed noul, choice, and score questions with structured, confidence-scored answers. Not affiliated with TypeSafe AI.",
+  "category": "sdk"
+}
