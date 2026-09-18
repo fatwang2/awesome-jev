@@ -1,0 +1,14 @@
+{
+  "name": "jev-seo",
+  "repository": "AkashPriyadarshii/jev-seo",
+  "description": "Zero-cost, agent-first SEO & Generative Engine Optimization (GEO) search radar CLI suite and MCP server powered by DuckDuckGo and TypeSafe Jev System One.",
+  "category": "developer_tools",
+  "evidence": [
+    "README.md",
+    "src/main.rs",
+    "src/engine.rs",
+    "src/audit.rs",
+    "src/mcp.rs",
+    "Cargo.toml"
+  ]
+}
