@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-rs",
+  "repository": "AbdelStark/typesafe-rs",
+  "description": "Evaluate a state against named questions (noul, choice, score) and get one typed answer per question.",
+  "category": "sdk"
+}
