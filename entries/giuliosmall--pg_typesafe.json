@@ -1,0 +1,7 @@
+{
+  "name": "pg_typesafe",
+  "repository": "giuliosmall/pg_typesafe",
+  "description": "PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify.",
+  "category": "integration",
+  "evidence": ["typesafe.c", "typesafe--0.0.1.sql"]
+}
