@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-ai-rails",
+  "repository": "GenieRobot/typesafe-ai-rails",
+  "description": "Community Rails integration for TypeSafe AI's System One API, built on the community typesafe-sdk Ruby gem.",
+  "category": "integration"
+}
