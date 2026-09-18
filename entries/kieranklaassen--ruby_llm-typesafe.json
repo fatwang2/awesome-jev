@@ -1,0 +1,6 @@
+{
+  "name": "ruby_llm-typesafe",
+  "repository": "kieranklaassen/ruby_llm-typesafe",
+  "description": "TypeSafe structured-output provider for RubyLLM 2",
+  "category": "integration"
+}
