@@ -1,0 +1,14 @@
+{
+  "name": "LitJev",
+  "repository": "zhengxuyu/litjev",
+  "description": "Open reproduction of Jev's decision layer on Qwen models that serves the Jev /v1/systemone request and response schema (choice, score, noul) from a local Hugging Face checkpoint by reading option logits instead of generating text, with an MMLU-Pro direct-answer benchmark.",
+  "category": "research",
+  "evidence": [
+    "src/litjev/schema.py",
+    "src/litjev/api.py",
+    "src/litjev/backend.py",
+    "src/litjev/decision.py",
+    "docs/jev-schema.md",
+    "src/litjev/mmlu.py"
+  ]
+}
