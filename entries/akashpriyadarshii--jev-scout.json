@@ -1,0 +1,7 @@
+{
+  "name": "jev-scout",
+  "repository": "AkashPriyadarshii/jev-scout",
+  "description": "Zero-hallucination open-source repo and crate scout powered by TypeSafe AI Jev System One scoring.",
+  "category": "developer_tools",
+  "evidence": ["README.md", "src/main.rs", "src/jev.rs", "Cargo.toml"]
+}
