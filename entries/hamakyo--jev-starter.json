@@ -1,0 +1,6 @@
+{
+  "name": "jev-starter",
+  "repository": "hamakyo/jev-starter",
+  "description": "Typed, policy-driven decision workflows on top of TypeSafe AI Jev: confidence routing, fallbacks, evaluation, and RAG patterns for TypeScript apps.",
+  "category": "integration"
+}
