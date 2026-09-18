@@ -20,7 +20,7 @@ jobs:
           persist-credentials: false
       - name: Review with Jev
         id: review
-        uses: fatwang2/jev-review-action@8e56fea5f75f77ae8c3b04fe9613f8673de43bb4 # Jev file selection and full-source review
+        uses: fatwang2/jev-review-action@0b5613e7c6bfb5b9526948dd3da25ee4d929bdc9 # Review facts and pipeline-limit errors
         with:
           typesafe-api-key: ${{ secrets.TYPESAFE_API_KEY }}
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
