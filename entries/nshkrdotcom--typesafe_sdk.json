@@ -1,0 +1,6 @@
+{
+  "name": "typesafe_sdk",
+  "repository": "nshkrdotcom/typesafe_sdk",
+  "description": "typesafe_sdk is the Elixir SDK for TypeSafe AI and its first System One model, Jev.",
+  "category": "sdk"
+}
