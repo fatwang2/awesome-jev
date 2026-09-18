@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-ai",
+  "repository": "Twister915/typesafe-ai",
+  "description": "typesafe-ai brings TypeSafe's System One evaluation API into Rust as small, typed judgments that fit inside ordinary application code.",
+  "category": "sdk"
+}
