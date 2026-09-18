@@ -1,0 +1,6 @@
+{
+  "name": "laravel-typesafe-jev",
+  "repository": "Butochnikov/laravel-typesafe-jev",
+  "description": "Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes.",
+  "category": "integration"
+}
