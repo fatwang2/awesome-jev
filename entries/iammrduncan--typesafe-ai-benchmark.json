@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-ai-benchmark",
+  "repository": "iammrduncan/typesafe-ai-benchmark",
+  "description": "This benchmark runs Qwen 3.8 27B on Cerebras and TypeSafe Jev side by side across seven synthetic workloads, with a separate local Needle 3 evaluation on the same contracts.",
+  "category": "research"
+}
