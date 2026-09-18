@@ -1,0 +1,7 @@
+{
+  "name": "JevSeek",
+  "repository": "morcoan/JevSeek",
+  "description": "Desktop and CLI coding agent that uses Jev to select the next tool from user intent and recorded execution results.",
+  "category": "developer_tools",
+  "evidence": ["jevseek/models.py", "jevseek/agent.py"]
+}
