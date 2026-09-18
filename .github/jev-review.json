@@ -2,7 +2,7 @@
   "version": 1,
   "mode": "catalog",
   "title": "Jev project submission",
-  "scope": "Public open-source projects that use TypeSafe Jev for concrete typed decisions, including SDKs and integrations. Generic type-safe programming libraries are outside this scope.",
+  "scope": "Public open-source projects that use TypeSafe Jev for concrete typed decisions, including SDKs and integrations. Compatible reimplementations of the Jev API or decision schema are also in scope. Generic type-safe programming libraries are outside this scope.",
   "entryDirectory": "entries",
   "categories": {
     "sdk": "SDKs and clients whose primary purpose is calling the TypeSafe API",
@@ -11,23 +11,23 @@
     "search": "Search, retrieval, relevance ranking, and evidence selection",
     "applications": "End-user applications using Jev decisions outside the other categories",
     "games": "Games, robotics, and simulation with Jev selecting bounded actions",
-    "research": "Reproducible evaluations and benchmarks of Jev",
+    "research": "Reproducible evaluations, benchmarks, and compatible reimplementations of the Jev decision layer",
     "other": "No supported category, outside the directory scope, or insufficient evidence"
   },
   "categoryConfidence": 0.7,
   "checks": [
     {
       "id": "uses_jev", "title": "Concrete Jev integration",
-      "question": "Do the supplied source files show a concrete TypeSafe Jev API integration, provider integration, or SDK implementation central to the repository's purpose? A README claim alone does not establish an implementation.",
-      "yes": "Source contains a TypeSafe API call, Jev provider call, or implemented TypeSafe SDK methods used for a concrete purpose",
-      "no": "Only generic type safety, marketing claims, copied descriptions, or no source evidence of Jev integration",
+      "question": "Do the supplied source files show a concrete TypeSafe Jev API integration, provider integration, SDK implementation, or a compatible implementation of the Jev API or decision schema (for example serving the /v1/systemone contract) that is central to the repository's purpose? A README claim alone does not establish an implementation.",
+      "yes": "Source contains a TypeSafe API call, Jev provider call, implemented TypeSafe SDK methods used for a concrete purpose, or a compatible implementation of the Jev API or decision schema",
+      "no": "Only generic type safety, marketing claims, copied descriptions, or no source evidence of Jev integration or a compatible implementation",
       "accept": 0.85, "reject": 0.2
     },
     {
       "id": "description_supported", "title": "Description supported by evidence",
-      "question": "Are the material claims in submission.description supported by the supplied README and source files? If there is no submission, judge the repository description. Do not treat an unsupported speed, accuracy, production-readiness, or safety claim as established.",
-      "yes": "The description gives a concrete purpose and its material claims match the supplied implementation",
-      "no": "The description is misleading, unrelated, promotional without evidence, or claims functionality the files do not show",
+      "question": "Are the material claims in submission.description supported by the supplied README, source files, and repository facts (file existence such as action.yml, license, top-level paths, and package dependency names)? If there is no submission, judge the repository description. Do not treat an unsupported speed, accuracy, production-readiness, or safety claim as established.",
+      "yes": "The description gives a concrete purpose and its material claims match the supplied implementation or observed repository facts",
+      "no": "The description is misleading, unrelated, promotional without evidence, or claims functionality the files and repository facts do not show",
       "accept": 0.8, "reject": 0.2
     },
     {

@@ -1,6 +1,6 @@
 # Contributing
 
-Submit a public open-source project that uses TypeSafe Jev for a concrete purpose. Source code must let a reviewer inspect the integration. Describe what it does without unsupported speed, accuracy, quality, or safety claims.
+Submit a public project that uses TypeSafe Jev for a concrete purpose, or a compatible reimplementation of the Jev API or decision schema. Source code must let a reviewer inspect the integration or reproduction. Describe what it does without unsupported speed, accuracy, quality, or safety claims.
 
 ## Add a project
 
@@ -18,6 +18,7 @@ Create `entries/owner--repository.json` with these fields:
 - Use exactly the repository's `owner/name`, without a URL, and lowercase the filename.
 - Choose a category from `.github/jev-review.json`; `other` is reserved for uncertain model results.
 - Source paths are optional: the Action tries to find the Jev integration automatically. If you know the relevant files, add `"evidence": ["src/client.ts"]` with up to six relative paths. You can omit this field or use `[]`.
+- Every material claim in `description` should have an `evidence` path pointing at the file that proves it. Existence claims (for example a bundled GitHub Action) should name that file.
 - If the review cannot find enough evidence, it will ask you to add source paths and flag the submission for maintainer review.
 - Change 1–10 entry files in the PR, one file per project. Do not mix entry submissions with other changes. README is regenerated after merge.
 - Run `npm run check` and `npm test` locally if possible.
