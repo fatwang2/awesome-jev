@@ -1,0 +1,6 @@
+{
+  "name": "jev",
+  "repository": "dannote/jev",
+  "description": "TypeSafe Jev for OTP: reply to Jev from a GenServer and pattern match on its answer",
+  "category": "sdk"
+}
