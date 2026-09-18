@@ -1,0 +1,7 @@
+{
+  "name": "jev-git",
+  "repository": "AkashPriyadarshii/jev-git",
+  "description": "Sub-second Git pre-commit and pre-push reflex gate that screens staged diffs for secrets and destructive commands using TypeSafe Jev.",
+  "category": "developer_tools",
+  "evidence": ["README.md", "src/main.rs", "Cargo.toml"]
+}
