@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-sdk",
+  "repository": "joshmn/typesafe-sdk",
+  "description": "A Ruby client for the TypeSafe System One API.",
+  "category": "sdk"
+}
