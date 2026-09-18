@@ -1,0 +1,13 @@
+{
+  "name": "jev-superpowers",
+  "repository": "AkashPriyadarshii/jev-superpowers",
+  "description": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions, zero-hallucination package vetting, and completion gates.",
+  "category": "developer_tools",
+  "evidence": [
+    "README.md",
+    "memory/DECISIONS.md",
+    "skills/jev-using-superpowers/SKILL.md",
+    "skills/jev-verification/SKILL.md",
+    "docs/ARCHITECTURE.md"
+  ]
+}
