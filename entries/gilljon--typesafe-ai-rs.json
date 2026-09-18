@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-ai-rs",
+  "repository": "gilljon/typesafe-ai-rs",
+  "description": "An independent Rust client for the TypeSafe AI System One API, maintained at gilljon/typesafe-ai-rs.",
+  "category": "sdk"
+}
