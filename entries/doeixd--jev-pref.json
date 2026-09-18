@@ -1,0 +1,7 @@
+{
+  "name": "jev-pref",
+  "repository": "doeixd/jev-pref",
+  "description": "CLI that turns project preferences from agent instruction files into jev-pref.json rules and uses TypeSafe Jev to review code hunks, staged files, or pull requests against them, returning findings to coding agents.",
+  "category": "developer_tools",
+  "evidence": ["packages/jev-pref/src/jev.js", "packages/jev-pref/src/commands/review.js", "packages/jev-pref/src/suites/prefs.js", "packages/jev-pref/src/commands/sync.js"]
+}
