@@ -1,0 +1,6 @@
+{
+  "name": "zio-typesafe-ai",
+  "repository": "jamesward/zio-typesafe-ai",
+  "description": "A Scala 3 / ZIO library for TypeSafe AI's Jev / System One API — a \"System One model\" that answers typed, atomic questions about a piece of state instead of generating text.",
+  "category": "sdk"
+}
