@@ -1,0 +1,6 @@
+{
+  "name": "advocaat",
+  "repository": "pithings/advocaat",
+  "description": "A small, type-safe client for asking AI questions about your data, powered by TypeSafe Jev.",
+  "category": "sdk"
+}
