@@ -1,0 +1,13 @@
+{
+  "name": "UI Generator Instinct Jev",
+  "repository": "joevidev/ui-generator-instinct-jev",
+  "description": "A demo app where the user describes a UI case in free text and Jev (TypeSafe's System One model) answers typed Choice/Noul/Score questions to pick and configure a real shadcn/ui component or page block, never generating code or copy.",
+  "category": "applications",
+  "evidence": [
+    "lib/decide.ts",
+    "lib/extract.ts",
+    "lib/families.ts",
+    "lib/typesafe-client.ts",
+    "app/api/[[...route]]/route.ts"
+  ]
+}
