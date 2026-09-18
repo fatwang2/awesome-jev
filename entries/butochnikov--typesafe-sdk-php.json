@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-sdk-php",
+  "repository": "Butochnikov/typesafe-sdk-php",
+  "description": "PHP client for the TypeSafe AI System One API.",
+  "category": "sdk"
+}
