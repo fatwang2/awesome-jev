@@ -1,0 +1,7 @@
+{
+  "name": "Leanest",
+  "repository": "baronunread/leanest",
+  "description": "Local-first test selection tool that uses TypeSafe Jev semantic judgments to decide which tests are safe to skip for a given code change.",
+  "category": "developer_tools",
+  "evidence": ["src/jev-client.ts", "src/selection-policy.ts"]
+}
