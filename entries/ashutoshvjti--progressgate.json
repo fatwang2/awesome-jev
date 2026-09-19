@@ -1,0 +1,6 @@
+{
+  "name": "progressgate",
+  "repository": "AshutoshVJTI/progressgate",
+  "description": "It's a small deterministic policy sitting on top of TypeSafe Jev semantic judgments — Jev reads the trajectory, code decides what to do about it.",
+  "category": "developer_tools"
+}
