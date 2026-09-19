@@ -1,0 +1,7 @@
+{
+  "name": "jevkit",
+  "repository": "ariel-frischer/jevkit",
+  "description": "jevkit is a Rust CLI for TypeSafe Jev that validates Choice, Score, and Noul question sets with 13 offline lint rules before sending the request to the /api/alpha/decisions endpoint and prints the parsed answers as JSON.",
+  "category": "developer_tools",
+  "evidence": ["src/client.rs", "src/lint.rs", "src/main.rs", "examples/severity.yaml", "README.md"]
+}
