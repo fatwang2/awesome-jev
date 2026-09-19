@@ -1,0 +1,6 @@
+{
+  "name": "every",
+  "repository": "sufianetaouil/every",
+  "description": "Ask a yes/no question of every function in a codebase. Ranked answers in seconds, for cents. Grep whose pattern is a question, powered by TypeSafe Jev.",
+  "category": "developer_tools"
+}
