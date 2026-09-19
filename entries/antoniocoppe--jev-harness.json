@@ -1,0 +1,6 @@
+{
+  "name": "jev-harness",
+  "repository": "AntonioCoppe/jev-harness",
+  "description": "A small TypeScript library that turns TypeSafe Jev answers into actions you can ship.",
+  "category": "sdk"
+}
