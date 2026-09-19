@@ -1,0 +1,6 @@
+{
+  "name": "jev-guard",
+  "repository": "ClemensSchartmueller/jev-guard",
+  "description": "jev-guard intercepts tool calls (shell executions, file writes, patch applications, file reads, and directory inspections) before execution, performs sub-millisecond local boundary and sensitive file checks, and utilizes TypeSafe AI's System One (Jev) model to evaluate blast radius, reversibility, and destructive potential.",
+  "category": "integration"
+}
