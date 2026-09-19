@@ -1,0 +1,6 @@
+{
+  "name": "sqlite3-jev",
+  "repository": "mattn/sqlite3-jev",
+  "description": "SQLite extension that calls TypeSafe Jev — a decision-only model that returns typed answers (yes/no probability, choice, score) instead of text — straight from SQL.",
+  "category": "integration"
+}
