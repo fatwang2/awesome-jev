@@ -1,0 +1,6 @@
+{
+  "name": "jev.nvim",
+  "repository": "valentynkit/jev.nvim",
+  "description": "Neovim plugin that splits the buffer into functions with Treesitter, scores each against a plain-language question with Jev, and ranks answers by probability in the quickfix window.",
+  "category": "developer_tools"
+}

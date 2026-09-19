@@ -1,0 +1,6 @@
+{
+  "name": "jev-belay",
+  "repository": "valentynkit/jev-belay",
+  "description": "Claude Code Stop hook that checks the transcript for evidence before trusting a \"done\" claim, spending one four-question Jev call only when files changed with no passing check since, and failing open on every error path.",
+  "category": "developer_tools"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "jev-skip",
+  "repository": "valentynkit/jev-skip",
+  "description": "Browser extension that reads the YouTube caption track and paints a per-segment sponsor probability on the seek bar before the intro ends, with no crowd database, reporting 77% of SponsorBlock's sponsor seconds caught over 23 videos at $0.0008 a video.",
+  "category": "applications"
+}

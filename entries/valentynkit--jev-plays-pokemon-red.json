@@ -1,0 +1,6 @@
+{
+  "name": "jev-plays-pokemon-red",
+  "repository": "valentynkit/jev-plays-pokemon-red",
+  "description": "Pokemon Red on PyBoy where deterministic code owns the route and arithmetic, Jev picks only at branches, and every battle turn's faint prediction is scored by Brier against RAM state.",
+  "category": "games"
+}
