@@ -1,0 +1,6 @@
+{
+  "name": "jev-resilience",
+  "repository": "Vicente-MD/jev-resilience",
+  "description": "Non-blocking Spring Boot Starter for Spring WebFlux that implements a Semantic Circuit Breaker to detect silent HTTP 200 failures using TypeSafe Jev.",
+  "category": "integration"
+}
