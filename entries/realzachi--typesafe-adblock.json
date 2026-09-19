@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-adblock",
+  "repository": "realZachi/typesafe-adblock",
+  "description": "🧹 Fun project: a Chrome extension that asks a tiny AI decision model (TypeSafe Jev) \"is this DOM element an ad?\" and pops it off the page. BYOK, no backend, not a real ad blocker.",
+  "category": "applications"
+}
