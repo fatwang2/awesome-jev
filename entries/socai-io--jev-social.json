@@ -1,0 +1,12 @@
+{
+  "name": "Jev Social",
+  "repository": "socai-io/jev-social",
+  "description": "Local Instagram and TikTok research app where TypeSafe Jev selects bounded socai CLI operations from observed state and deterministic code validates confidence before browser execution.",
+  "category": "applications",
+  "evidence": [
+    "src/classifier.js",
+    "src/actions.js",
+    "src/app.js",
+    "README.md"
+  ]
+}
