@@ -1,0 +1,6 @@
+{
+  "name": "tripwire",
+  "repository": "noelzappy/tripwire",
+  "description": "Judge every LLM response before the user sees it. AI SDK middleware and OpenAI-compatible proxy.",
+  "category": "integration"
+}
