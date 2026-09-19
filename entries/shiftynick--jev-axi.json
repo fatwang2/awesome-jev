@@ -1,14 +1,10 @@
 {
   "name": "jev-axi",
   "repository": "shiftynick/jev-axi",
-  "description": "Command-line interface for coding agents that uses TypeSafe Jev to gate shell commands before they run, screen fetched text for prompt injection, review diffs, and triage build logs, classifying routine commands locally before any request is made.",
+  "description": "Command-line interface that sends typed questions to TypeSafe Jev so coding agents can gate shell commands before they run, classifying routine commands locally before any request is made.",
   "category": "developer_tools",
   "evidence": [
-    "src/safety.ts",
-    "src/commands/hook.ts",
-    "src/commands/guard.ts",
-    "src/commands/diff.ts",
-    "src/commands/triage.ts",
-    "src/client.ts"
+    "src/client.ts",
+    "src/safety.ts"
   ]
 }
