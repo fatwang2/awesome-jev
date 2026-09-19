@@ -1,0 +1,6 @@
+{
+  "name": "req_llm",
+  "repository": "agentjido/req_llm",
+  "description": "A Req- and Finch-backed package to call LLM APIs that standardizes requests and responses across providers.",
+  "category": "sdk"
+}
