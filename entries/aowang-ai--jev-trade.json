@@ -1,0 +1,7 @@
+{
+  "name": "Jev Trade",
+  "repository": "aowang-ai/jev-trade",
+  "description": "Live Hyperliquid desk: each tick Jev answers Choice questions for long/short, open/close/hold, and leverage; application code quotes or sends no order. Documents a dry-run path; a live key sends real orders.",
+  "category": "applications",
+  "evidence": ["src/model.ts", "src/trader.ts"]
+}
