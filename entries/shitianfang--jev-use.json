@@ -1,0 +1,7 @@
+{
+  "name": "jev-use",
+  "repository": "shitianfang/jev-use",
+  "description": "Claude Code, Codex, and pi plugin exposing jev_judge and jev_gate MCP tools with a routing skill and a PreToolUse command gate; a typed escalation contract returns writing and unsure steps to the LLM.",
+  "category": "integration",
+  "evidence": ["src/server.ts", "src/dispatch.ts", "src/cli.ts", "src/backends/typesafe.ts", "skills/jev-use/SKILL.md"]
+}
