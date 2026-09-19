@@ -1,0 +1,6 @@
+{
+  "name": "typesafe-snake",
+  "repository": "sorrycc/typesafe-snake",
+  "description": "Snake auto-played by TypeSafe's Jev model: one System One choice per tick, legal moves and facts generated in code",
+  "category": "games"
+}
