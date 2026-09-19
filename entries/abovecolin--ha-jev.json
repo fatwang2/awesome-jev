@@ -1,0 +1,12 @@
+{
+  "name": "Jev for Home Assistant",
+  "repository": "AboveColin/HA-Jev",
+  "description": "Home Assistant integration that turns Jev answers into sensors, adds four automation actions returning a probability, a choice with its distribution or a score, and provides a conversation agent for Assist that maps a spoken command onto Home Assistant's built-in intents.",
+  "category": "integration",
+  "evidence": [
+    "custom_components/jev/sensor.py",
+    "custom_components/jev/services.py",
+    "custom_components/jev/conversation.py",
+    "custom_components/jev/interpret.py"
+  ]
+}
