@@ -1,0 +1,6 @@
+{
+  "name": "jev-voice-browser",
+  "repository": "moritzkremb/jev-voice-browser",
+  "description": "Control a real browser by voice. Jev (TypeSafe System One) decides intent + target in ~300 ms per spoken word; Playwright acts — often before you finish the sentence.",
+  "category": "applications"
+}
