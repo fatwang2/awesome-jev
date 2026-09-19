@@ -1,0 +1,13 @@
+{
+  "name": "omp-jev-compaction",
+  "repository": "jerryfane/omp-jev-compaction",
+  "description": "omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files.",
+  "category": "integration",
+  "evidence": [
+    "src/asker.ts",
+    "src/hook.ts",
+    "src/context.ts",
+    "src/spill.ts",
+    "README.md"
+  ]
+}
