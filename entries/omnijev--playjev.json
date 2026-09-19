@@ -1,0 +1,14 @@
+{
+  "name": "PlayJev",
+  "repository": "OmniJev/PlayJev",
+  "description": "Qwen3.5-0.8B-Base fine-tuned on frames labelled by ten per-game search programs to play ten browser games from 448 px screenshots, reading a probability over each game's option list off one forward pass instead of generating text, and serving the Jev /v1/systemone request and response schema.",
+  "category": "games",
+  "evidence": [
+    "playjev/model.py",
+    "playjev/serve.py",
+    "playjev/play.py",
+    "playjev/collect.py",
+    "playjev/train_sft.py",
+    "playjev/teachers/snake.py"
+  ]
+}
