@@ -1,0 +1,12 @@
+{
+  "name": "Jev for Chrome",
+  "repository": "chy4pro/jev-for-chrome",
+  "description": "Unofficial Chrome extension port of Jev Ultrafast in which Jev selects the browser operation and DOM target each step and a separate text model supplies typed text.",
+  "category": "applications",
+  "evidence": [
+    "src/shared/action-space.ts",
+    "src/background/agent.ts",
+    "src/shared/providers/openrouter.ts",
+    "src/shared/text-helper.ts"
+  ]
+}
