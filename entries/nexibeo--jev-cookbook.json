@@ -1,0 +1,10 @@
+{
+  "name": "Jev Cookbook",
+  "repository": "nexibeo/jev-cookbook",
+  "description": "Runnable Node recipes that call Jev through OpenRouter's Decisions endpoint for classification jobs such as support-ticket routing, with confidence thresholds and human-review routing kept in code.",
+  "category": "applications",
+  "evidence": [
+    "lib/jev.mjs",
+    "recipes/01-support-triage/triage.mjs"
+  ]
+}
