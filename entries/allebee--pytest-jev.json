@@ -1,0 +1,11 @@
+{
+  "name": "pytest-jev",
+  "repository": "allebee/pytest-jev",
+  "description": "A pytest plugin whose jev fixture asks Jev Noul, Choice, and Score questions about the text under test and fails tests with each claim's probability.",
+  "category": "integration",
+  "evidence": [
+    "src/pytest_jev/judge.py",
+    "src/pytest_jev/plugin.py",
+    "src/pytest_jev/verdicts.py"
+  ]
+}
