@@ -1,0 +1,11 @@
+{
+  "name": "jevgrep",
+  "repository": "allebee/jevgrep",
+  "description": "Filters logs and other text streams, including live tail -f output, by asking Jev one Noul per line against a plain-English question and printing the lines at or above a probability threshold.",
+  "category": "search",
+  "evidence": [
+    "src/jevgrep/judge.py",
+    "src/jevgrep/scan.py",
+    "src/jevgrep/cli.py"
+  ]
+}
