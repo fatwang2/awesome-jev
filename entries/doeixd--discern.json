@@ -1,0 +1,7 @@
+{
+  "name": "discern",
+  "repository": "doeixd/discern",
+  "description": "TypeScript library that turns Effect DecisionModel answers into typed control flow: classify, probability and rating patterns with an explicit Uncertain branch, routable procedures, and recording, replay, caching and call budgets as middleware. Reaches TypeSafe Jev through the @effect/ai-typesafe decision model.",
+  "category": "integration",
+  "evidence": ["src/index.ts", "src/model.ts", "src/procedure.ts", "examples/headline.ts", "test/integration.types.ts"]
+}
