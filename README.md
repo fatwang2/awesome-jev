@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-157 projects.
+162 projects.
 
 ### SDKs
 
@@ -39,6 +39,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [cursor-clijev-compaction](https://github.com/kleosr/cursor-clijev-compaction) — TypeSafe Jev-scored context recovery for Cursor CLI \(agent\)\. Capture tool I/O, score keep/drop, re-inject after native compact\.
 - [dsh-jev-tools](https://github.com/HorusJiang/dsh-jev-tools) — DeepSeek Harness plugin that runs three automatic Jev judgments on the live session — pruning oversized tool output to the segments relevant to the request, screening fetched pages for instructions aimed at the model, and picking which skill fits the next step — and adds jev\_ask and a jev\_gate completion check that escalates every unclear answer\.
 - [fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) — Claude Code plugin that replaces the compaction summary with Jev decisions: every tool call and result is scored in one fast request, stale ones are dropped or truncated, everything kept stays verbatim\.
+- [GPTCache](https://github.com/zilliztech/GPTCache) — Semantic cache with a Jev evaluator that uses Noul judgments to check whether a cached response can serve an incoming request\.
 - [ha-conversation-jev](https://github.com/luxus/ha-conversation-jev) — Home Assistant custom conversation agent: Jev \(TypeSafe System One, jev-latest\) classifies an utterance, then either calls a light service \(v0 fast path\) or hands off to the SpaceXAI Grok conversation agent\.
 - [hermes-jev](https://github.com/keeltrace/hermes-jev) — It is built for narrow, typed judgments that should not require the main generative model to improvise an answer: routing, ranking, verification, multi-question assessment, tool gating, and context-value decisions\.
 - [hono-jev-router](https://github.com/yusukebe/hono-jev-router) — Hono router that uses TypeSafe Jev to match HTTP requests against natural-language route descriptions\.
@@ -117,7 +118,10 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jgrep](https://github.com/kyu1204/jgrep) — Semantic grep CLI that asks Jev one Noul per code chunk, git diff hunk or CSV row \(16 per request\) and prints grep-style file:line hits, with English-sentence lint rules for CI and an interactive init\.
 - [jselect](https://github.com/keltokhy/jselect) — Selects source-linked evidence within a token budget using Jev Noul relevance judgments and local diversity-aware selection\.
 - [jsort](https://github.com/keltokhy/jsort) — Ranks text along a plain-English criterion using pairwise Jev Noul comparisons and a locally fitted Bradley-Terry scale\.
+- [MemSearch](https://github.com/zilliztech/memsearch) — Markdown memory retrieval for coding agents with an optional Jev reranker that scores retrieved chunks using Noul questions\.
 - [neo4jev](https://github.com/jexp/neo4jev) — Neo4j graph navigation demo that uses TypeSafe Jev to select relationships and check goals during beam search\.
+- [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp) — Runnable search tutorials using Gemini embeddings, Milvus retrieval, and Jev judgments for reranking, filtering, stopping, routing, cache reuse, curation, guardrails, and evaluation\.
+- [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag) — Multi-hop retrieval with an optional Jev reranker that scores candidate relations using Noul judgments and selects them with a configurable threshold\.
 
 ### Applications
 
@@ -167,6 +171,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [assay-001](https://github.com/jourdanlabs/assay-001) — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims\. Split verdict, published in full\.
 - [decider](https://github.com/Mapika/decider) — It is an open reproduction of the "System One" model class \(TypeSafe AI's Jev\), built on Qwen/Qwen3\.5-2B-Base\.
+- [DeepSearcher search-stopping evaluation](https://github.com/zilliztech/deep-searcher) — Standalone experiment comparing Jev and a generative model as search-stopping policies, with a replay workflow and recorded evaluation results\.
 - [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
 - [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
