@@ -2,7 +2,7 @@
   "name": "GPTCache",
   "repository": "zilliztech/GPTCache",
   "description": "Semantic cache with a Jev evaluator that uses Noul judgments to check whether a cached response can serve an incoming request.",
-  "category": "search",
+  "category": "integration",
   "evidence": [
     "gptcache/similarity_evaluation/jev.py",
     "examples/benchmark/reuse_compatibility/README.md"
