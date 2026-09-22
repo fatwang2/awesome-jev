@@ -1,0 +1,10 @@
+{
+  "name": "Vector Graph RAG",
+  "repository": "zilliztech/vector-graph-rag",
+  "description": "Multi-hop retrieval with an optional Jev reranker that scores candidate relations using Noul judgments and selects them with a configurable threshold.",
+  "category": "search",
+  "evidence": [
+    "src/vector_graph_rag/llm/jev.py",
+    "evaluation/jev/README.md"
+  ]
+}

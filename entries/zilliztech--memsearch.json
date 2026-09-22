@@ -1,0 +1,10 @@
+{
+  "name": "MemSearch",
+  "repository": "zilliztech/memsearch",
+  "description": "Markdown memory retrieval for coding agents with an optional Jev reranker that scores retrieved chunks using Noul questions.",
+  "category": "search",
+  "evidence": [
+    "src/memsearch/jev_reranker.py",
+    "evaluation/reranking-evaluation.md"
+  ]
+}
