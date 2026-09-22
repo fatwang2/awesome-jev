@@ -1,0 +1,14 @@
+{
+  "name": "Jev by Example",
+  "repository": "ReallyArtificial/jev-by-example",
+  "description": "Runnable JavaScript lessons use Jev judgments for memory reconciliation, tool-result checks, and handoff constraints, with offline fixtures and opt-in live calls.",
+  "category": "developer_tools",
+  "evidence": [
+    "README.md",
+    "src/client.mjs",
+    "src/runner.mjs",
+    "examples/02-memory-reconciliation/example.mjs",
+    "examples/05-tool-result-contract/example.mjs",
+    "examples/08-handoff-readiness/example.mjs"
+  ]
+}
