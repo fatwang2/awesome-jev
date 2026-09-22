@@ -1,0 +1,10 @@
+{
+  "name": "Vector Graph RAG",
+  "repository": "zilliztech/vector-graph-rag",
+  "description": "Multi-hop retrieval with an optional Jev backend that scores candidate relations and passes the selected relation order to source-document ranking.",
+  "category": "search",
+  "evidence": [
+    "src/vector_graph_rag/llm/jev.py",
+    "evaluation/jev/README.md"
+  ]
+}

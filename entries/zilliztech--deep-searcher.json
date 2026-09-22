@@ -1,0 +1,10 @@
+{
+  "name": "DeepSearcher search-stopping evaluation",
+  "repository": "zilliztech/deep-searcher",
+  "description": "Standalone experiment comparing Jev and a generative model as search-stopping policies, with a replay workflow and recorded evaluation results.",
+  "category": "research",
+  "evidence": [
+    "evaluation/jev_stopping/run_full100.py",
+    "evaluation/jev_stopping/README.md"
+  ]
+}

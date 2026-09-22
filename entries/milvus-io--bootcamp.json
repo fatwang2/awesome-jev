@@ -1,0 +1,11 @@
+{
+  "name": "Search with Jev and Milvus",
+  "repository": "milvus-io/bootcamp",
+  "description": "Runnable search tutorials using Gemini embeddings, Milvus retrieval, and Jev judgments for reranking, filtering, stopping, routing, cache reuse, curation, guardrails, and evaluation.",
+  "category": "search",
+  "evidence": [
+    "bootcamp/RAG/search_with_jev/README.md",
+    "bootcamp/RAG/search_with_jev/rerank_search_results.ipynb",
+    "bootcamp/RAG/search_with_jev/route_search_queries.ipynb"
+  ]
+}
