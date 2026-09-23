@@ -1,0 +1,7 @@
+{
+  "name": "jevsearch",
+  "repository": "kylemclaren/jevsearch",
+  "description": "shadcn/ui command-palette site search where a local keyword pass streams hits first, then one TypeSafe Jev request re-ranks the top 20 with a Noul per candidate page, a Choice for the best answer, and a Noul for whether any page answers the query.",
+  "category": "search",
+  "evidence": ["README.md", "src/lib/jev-search-server.ts", "src/lib/jev-search-core.ts", "registry.json"]
+}
