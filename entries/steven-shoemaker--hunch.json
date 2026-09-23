@@ -3,5 +3,9 @@
   "repository": "steven-shoemaker/hunch",
   "description": "Python library that turns TypeSafe Jev Choice, Score, and Noul questions into functions over lists and DataFrames, such as classify, score, check, extract, pick, and verify.",
   "category": "sdk",
-  "evidence": ["src/hunch/engine.py", "src/hunch/verbs.py", "src/hunch/extract.py", "README.md"]
+  "evidence": [
+    "src/hunch/engine.py",
+    "src/hunch/extract.py",
+    "README.md"
+  ]
 }
