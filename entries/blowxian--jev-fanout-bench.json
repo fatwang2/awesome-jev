@@ -1,0 +1,7 @@
+{
+  "name": "jev-fanout-bench",
+  "repository": "blowxian/jev-fanout-bench",
+  "description": "Reproducible measurement of how TypeSafe Jev bills and behaves: batched versus one-question-per-call input tokens, per-question and per-language token costs, context limits found by bisection, and answer shifts under batching, translation and rewording, with public request logs.",
+  "category": "research",
+  "evidence": ["bench.py", "bench2.py", "results/summary.md", "results/round2/summary.md"]
+}
