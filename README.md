@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-162 projects.
+163 projects.
 
 ### SDKs
 
@@ -61,6 +61,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [jevlogs](https://github.com/reachjalil/jevlogs) — Open-source Jev log triage for OpenTelemetry\. Score the signal before expensive LLM analysis\.
 - [laravel-typesafe-jev](https://github.com/Butochnikov/laravel-typesafe-jev) — Unofficial Laravel integration for TypeSafe Jev AI with typed responses, async requests, scoped dependency injection, and testing fakes\.
 - [llama-index-jev](https://github.com/WiktorB2004/llama-index-jev) — Drop-in LlamaIndex reranker and router powered by TypeSafe Jev: typed Score / Choice answers, cheap compared to LLM-as-judge — not a Cohere or FlagEmbedding cross-encoder\.
+- [Milvus Model](https://github.com/milvus-io/milvus-model) — Python reranker adapter that sends candidate documents as Jev Noul questions in one request, then sorts the returned scores and preserves original document indices\.
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
 - [pi-jev](https://github.com/y0usaf/pi-jev) — TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev\_ask for typed, calibrated answers
