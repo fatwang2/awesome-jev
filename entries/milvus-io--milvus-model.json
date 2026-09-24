@@ -1,0 +1,10 @@
+{
+  "name": "Milvus Model",
+  "repository": "milvus-io/milvus-model",
+  "description": "Python reranker adapter that sends candidate documents as Jev Noul questions in one request, then sorts the returned scores and preserves original document indices.",
+  "category": "integration",
+  "evidence": [
+    "src/pymilvus/model/reranker/jev.py",
+    "tests/test_jev_reranker.py"
+  ]
+}
