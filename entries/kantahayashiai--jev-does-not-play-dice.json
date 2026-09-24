@@ -1,0 +1,14 @@
+{
+  "name": "Jev Does Not Play Dice",
+  "repository": "KantaHayashiAI/jev-does-not-play-dice",
+  "description": "Reproducible evaluation that calls hosted Jev through Vercel AI Gateway on fair random draws and synthetic forecast documents, with recorded outputs and offline recomputation.",
+  "category": "research",
+  "evidence": [
+    "README.md",
+    "docs/methods.md",
+    "docs/running.md",
+    "src/live.mjs",
+    "src/runner.mjs",
+    "scripts/analyze.py"
+  ]
+}
