@@ -1,0 +1,13 @@
+{
+  "name": "kojev",
+  "repository": "ItisNoMatter/kojev",
+  "description": "Kotlin Multiplatform (JVM, Android, iOS) client for TypeSafe's Jev: Choice, Score, and Noul questions are declared in Kotlin, sent in one request with retries, and answered as the caller's own enums rather than string keys.",
+  "category": "sdk",
+  "evidence": [
+    "src/commonMain/kotlin/io/github/itisnomatter/kojev/Questions.kt",
+    "src/commonMain/kotlin/io/github/itisnomatter/kojev/Criterion.kt",
+    "src/commonMain/kotlin/io/github/itisnomatter/kojev/Answer.kt",
+    "src/commonMain/kotlin/io/github/itisnomatter/kojev/JevClient.kt",
+    "src/commonMain/kotlin/io/github/itisnomatter/kojev/wire/Transport.kt"
+  ]
+}
