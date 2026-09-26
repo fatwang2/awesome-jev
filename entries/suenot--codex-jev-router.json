@@ -1,0 +1,11 @@
+{
+  "name": "Codex Jev Router",
+  "repository": "suenot/codex-jev-router",
+  "description": "Uses TypeSafe Jev Choice and Noul decisions to select Codex subagent models and reasoning effort with a Sol fallback.",
+  "category": "developer_tools",
+  "evidence": [
+    "src/router.mjs",
+    "src/decider.mjs",
+    "src/route.mjs"
+  ]
+}
