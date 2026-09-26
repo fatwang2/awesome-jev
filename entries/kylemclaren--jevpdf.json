@@ -1,0 +1,7 @@
+{
+  "name": "JevPDF",
+  "repository": "kylemclaren/jevpdf",
+  "description": "Browser app for searching a PDF in plain language: pdf.js extracts each page's lines locally, each line gets one TypeSafe Jev Noul asking whether it answers the query (batched up to 16 lines per request with the page text as context), and lines at or above the hit threshold are highlighted and ranked by probability.",
+  "category": "search",
+  "evidence": ["README.md", "src/lib/jev.ts", "src/lib/jev-config.ts", "src/lib/extract.ts", "server/typesafe-proxy.ts"]
+}
