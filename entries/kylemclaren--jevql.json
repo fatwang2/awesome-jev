@@ -1,0 +1,7 @@
+{
+  "name": "jevql",
+  "repository": "kylemclaren/jevql",
+  "description": "psql-shaped CLI and Go/TypeScript/Python SDKs that add jev(), jev_prob, jev_choice, and jev_score to queries against a vanilla Postgres with no extension: the plain SQL runs on the server, surviving rows are judged by TypeSafe Jev in batches (repeated judgements are cached), and the client applies the filter, sort, or group.",
+  "category": "integration",
+  "evidence": ["internal/typesafe/client.go", "internal/exec/exec.go", "sdk/PROTOCOL.md"]
+}
