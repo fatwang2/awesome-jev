@@ -1,0 +1,7 @@
+{
+  "name": "jev",
+  "repository": "feder-cr/jev",
+  "description": "jevos is an open-source alternative to TypeSafe's Jev for yes/no decisions that runs on a laptop CPU with llama.cpp, serving the /v1/systemone contract so existing Jev SDK code works unchanged for yes/no questions.",
+  "category": "research",
+  "evidence": ["README.md", "src/jev/api/app.py", "src/jev/api/wire.py"]
+}
