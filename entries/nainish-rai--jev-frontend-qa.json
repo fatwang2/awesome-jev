@@ -1,0 +1,10 @@
+{
+  "name": "Jev Frontend QA",
+  "repository": "Nainish-Rai/jev-frontend-qa",
+  "description": "Frontend QA CLI that uses TypeSafe Jev Choice decisions to select browser operations and observed targets.",
+  "category": "developer_tools",
+  "evidence": [
+    "pyproject.toml",
+    "src/jev_frontend_qa/core/model_client.py"
+  ]
+}
