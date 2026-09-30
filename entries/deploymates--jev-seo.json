@@ -1,0 +1,14 @@
+{
+  "name": "jev-seo",
+  "repository": "DeployMates/jev-seo",
+  "description": "Web dashboard that audits a business site for SEO and AI-search visibility: the crawler measures each page, Jev answers typed Choice, Score and Noul questions over the derived state, and the resulting probabilities stream to the browser as NDJSON.",
+  "category": "applications",
+  "evidence": [
+    "server/src/jevClient.ts",
+    "server/src/questions.ts",
+    "server/src/state.ts",
+    "server/src/thresholds.ts",
+    "server/src/audit.ts",
+    "server/src/index.ts"
+  ]
+}
