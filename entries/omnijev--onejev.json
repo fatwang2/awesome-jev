@@ -1,0 +1,12 @@
+{
+  "name": "OneJev",
+  "repository": "OmniJev/OneJev",
+  "description": "Open multimodal System One model in four sizes (0.8B to 27B): typed questions about a screenshot, photo, video or text get a calibrated probability for every option in one forward pass.",
+  "category": "research",
+  "evidence": [
+    "qev/mm_engine.py",
+    "qev/server.py",
+    "qev/media.py",
+    "qev/client.py"
+  ]
+}
