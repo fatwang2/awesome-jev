@@ -1,0 +1,7 @@
+{
+  "name": "WaterSheep",
+  "repository": "SamratDuttaOfficial/WaterSheep",
+  "description": "Open, Apache-2.0 reimplementation of the Jev decision layer: a local server that accepts Jev's POST /v1/systemone requests and answers noul, choice and score questions, plus multi-label ones, with a probability for every option.",
+  "category": "research",
+  "evidence": ["watersheep/cli.py", "watersheep/infer.py"]
+}
