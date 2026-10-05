@@ -1,0 +1,13 @@
+{
+  "name": "mu",
+  "repository": "qybaihe/mu",
+  "description": "Coding agent and desktop app built on Pi that asks TypeSafe Jev typed questions at decision points in its loop, including which chunks of long tool output enter the context, whether a rule-flagged command was asked for, and whether web pages, search results or MCP output carry instructions aimed at the model.",
+  "category": "developer_tools",
+  "evidence": [
+    "README.md",
+    "packages/kyrn-judge/src/providers/typesafe.ts",
+    "packages/kyrn-judge/src/decisions/tool-admission.ts",
+    "packages/kyrn-judge/src/decisions/tool-risk.ts",
+    "packages/kyrn-judge/src/decisions/tool-injection.ts"
+  ]
+}
