@@ -1,0 +1,10 @@
+{
+  "name": "jev-research-pipeline",
+  "repository": "shimo4228/jev-research-pipeline",
+  "description": "Daily research monitor where Jev judges whether each new paper or repository helps answer one of the user's open questions and a separate LLM writes the note.",
+  "category": "search",
+  "evidence": [
+    "src/jev_research_pipeline/jev/relevance_triage.py",
+    "src/jev_research_pipeline/jev/core.py"
+  ]
+}
