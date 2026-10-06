@@ -2,7 +2,7 @@
   "name": "jev-skill-router",
   "repository": "shimo4228/jev-skill-router",
   "description": "Claude Code hook that asks Jev which installed skill fits each prompt and logs the answer.",
-  "category": "developer_tools",
+  "category": "integration",
   "evidence": [
     "scripts/jev_client.py",
     "scripts/router.py"

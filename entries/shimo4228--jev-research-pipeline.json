@@ -5,6 +5,6 @@
   "category": "search",
   "evidence": [
     "src/jev_research_pipeline/jev/relevance_triage.py",
-    "src/jev_research_pipeline/jev/core.py"
+    "src/jev_research_pipeline/jev/question_screening.py"
   ]
 }
