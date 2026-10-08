@@ -1,0 +1,12 @@
+{
+  "name": "pi-jev-model-router",
+  "repository": "da-vinci-noob/pi-jev-model-router",
+  "description": "A Pi extension that uses TypeSafe Jev task judgments to select models under configurable budget and availability policies.",
+  "category": "integration",
+  "evidence": [
+    "package.json",
+    "extensions/pi-jev-model-router/jev.ts",
+    "extensions/pi-jev-model-router/router.ts",
+    "extensions/pi-jev-model-router/README.md"
+  ]
+}
