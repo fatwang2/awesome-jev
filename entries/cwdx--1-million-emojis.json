@@ -1,0 +1,7 @@
+{
+  "name": "1 Million Emojis",
+  "repository": "cwdx/1-million-emojis",
+  "description": "Shared 1000 × 1000 emoji canvas where, after each visitor stroke, Jev answers one Choice over named emoji and square pairs next to it and a Noul on whether the stroke is an unfinished shape.",
+  "category": "applications",
+  "evidence": ["packages/emoji/src/jev-join.ts"]
+}
