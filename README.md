@@ -223,6 +223,7 @@ See the [review policy](.github/jev-review.json) and [validation records](docs/r
 ## Further reading
 
 - [Jev in the Wild](https://arxiv.org/abs/2609.30216) - Data-driven survey of 2,170 public Jev projects, covering early ecosystem growth, application domains, and decision-use patterns.
+- [What is Jev Engineering?](https://madewithjev.com/what-is-jev-engineering) - Explains the split where an LLM writes, Jev decides and code acts, with seven rules drawn from working builds and how to move a first decision out of an LLM call.
 
 ## About
 
