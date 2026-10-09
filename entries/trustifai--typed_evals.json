@@ -1,0 +1,11 @@
+{
+  "name": "Typed Evals",
+  "repository": "TrustifAI/typed_evals",
+  "description": "Python toolkit using TypeSafe Jev to evaluate LLM, RAG, and Agent outputs, with per-metric calibration against human pass/fail labels.",
+  "category": "research",
+  "evidence": [
+    "typed_evals/backends/jev.py",
+    "docs/CALIBRATION.md",
+    "docs/BENCHMARK.md"
+  ]
+}

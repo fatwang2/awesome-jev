@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-180 projects.
+181 projects.
 
 ### SDKs
 
@@ -206,6 +206,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [openjev](https://github.com/razorback16/openjev) — Open, Jev-compatible System One decision server on DiffusionGemma
 - [openjev-sglang](https://github.com/ekzhang/openjev-sglang) — A server implementing the TypeSafe/Jev HTTP API with Qwen3\.6-35B-A3B on SGLang\.
 - [smoking-extraction-benchmark](https://github.com/vclic/smoking-extraction-benchmark) — Synthetic smoking-history extraction benchmark comparing TypeSafe Jev and OpenAI structured outputs, with reproducible accuracy, cost, and latency results\.
+- [Typed Evals](https://github.com/TrustifAI/typed_evals) — Python toolkit using TypeSafe Jev to evaluate LLM, RAG, and Agent outputs, with per-metric calibration against human pass/fail labels\.
 - [typesafe-ai-benchmark](https://github.com/iammrduncan/typesafe-ai-benchmark) — This benchmark runs Qwen 3\.8 27B on Cerebras and TypeSafe Jev side by side across seven synthetic workloads, with a separate local Needle 3 evaluation on the same contracts\.
 - [WaterSheep](https://github.com/SamratDuttaOfficial/WaterSheep) — Open, Apache-2\.0 reimplementation of the Jev decision layer: a local server that accepts Jev's POST /v1/systemone requests and answers noul, choice and score questions, plus multi-label ones, with a probability for every option\.
 
