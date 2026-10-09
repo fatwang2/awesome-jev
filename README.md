@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-181 projects.
+182 projects.
 
 ### SDKs
 
@@ -71,6 +71,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [omp-jev-compaction](https://github.com/jerryfane/omp-jev-compaction) — omp plugin that uses Jev to score tool-call and tool-result relevance, preserves kept conversation text verbatim, and parks elided output in readable files\.
 - [pg\_typesafe](https://github.com/giuliosmall/pg_typesafe) — PostgreSQL extension that calls TypeSafe Jev from SQL for Choice, Noul, and Score, including batched detect and classify\.
 - [pi-jev](https://github.com/y0usaf/pi-jev) — TypeSafe Jev as a decision layer for the Pi coding agent: a measured tool-call gate plus jev\_ask for typed, calibrated answers
+- [pi-jev-model-router](https://github.com/da-vinci-noob/pi-jev-model-router) — A Pi extension that uses TypeSafe Jev task judgments to select models under configurable budget and availability policies\.
 - [pi-jev-router](https://github.com/mejiasd3v/pi-jev-router) — Let TypeSafe's Jev choose a model and reasoning effort for Pi, then keep both fixed for the session\.
 - [pi-typesafe](https://github.com/DevMortimer/pi-typesafe) — TypeSafe decisions for Pi: batched evaluation tool, terminal playground, and typed API for extension authors
 - [ruby\_llm-typesafe](https://github.com/kieranklaassen/ruby_llm-typesafe) — TypeSafe structured-output provider for RubyLLM 2
@@ -135,7 +136,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [MemSearch](https://github.com/zilliztech/memsearch) — Markdown memory retrieval for coding agents with an optional Jev reranker that scores retrieved chunks using Noul questions\.
 - [neo4jev](https://github.com/jexp/neo4jev) — Neo4j graph navigation demo that uses TypeSafe Jev to select relationships and check goals during beam search\.
 - [Search with Jev and Milvus](https://github.com/milvus-io/bootcamp) — Runnable search tutorials using Gemini embeddings, Milvus retrieval, and Jev judgments for reranking, filtering, stopping, routing, cache reuse, curation, guardrails, and evaluation\.
-- [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag) — Multi-hop retrieval with an optional Jev reranker that scores candidate relations using Noul judgments and selects them with a configurable threshold\.
+- [Vector Graph RAG](https://github.com/zilliztech/vector-graph-rag) — Multi-hop retrieval with two-stage Jev Noul scoring of graph relations and full passages, reporting 86\.07% average Recall&\#64;5 across 1,000 MuSiQue and 1,000 2Wiki queries\.
 
 ### Applications
 
