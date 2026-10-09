@@ -1,10 +1,11 @@
 {
   "name": "Vector Graph RAG",
   "repository": "zilliztech/vector-graph-rag",
-  "description": "Multi-hop retrieval with an optional Jev reranker that scores candidate relations using Noul judgments and selects them with a configurable threshold.",
+  "description": "Multi-hop retrieval with two-stage Jev Noul scoring of graph relations and full passages, reporting 86.07% average Recall@5 across 1,000 MuSiQue and 1,000 2Wiki queries.",
   "category": "search",
   "evidence": [
     "src/vector_graph_rag/llm/jev.py",
-    "evaluation/jev/README.md"
+    "src/vector_graph_rag/rag.py",
+    "evaluation/jev/two-stage/README.md"
   ]
 }
