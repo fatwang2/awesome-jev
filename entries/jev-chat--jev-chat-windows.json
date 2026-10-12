@@ -1,0 +1,10 @@
+{
+  "name": "JevChat-Windows",
+  "repository": "jev-chat/jev-chat-windows",
+  "description": "Windows floating chat copilot: a packaged exe (no Python needed) screenshots the chat window by its window ID, reads it with local offline OCR, sends the text to Jev for intent and emotion, drafts three replies, and fills the pick into the input box — keys live in user environment variables and nothing is ever sent automatically.",
+  "category": "applications",
+  "evidence": [
+    "core/jev_client.py",
+    "core/providers.py"
+  ]
+}
