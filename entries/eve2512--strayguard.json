@@ -1,0 +1,7 @@
+{
+  "name": "strayguard",
+  "repository": "Eve2512/Strayguard",
+  "description": "Git pre-commit hook that asks TypeSafe Jev one Choice question per newly added file and flags scratch scripts, output dumps, build output and local-only files before they are committed.",
+  "category": "developer_tools",
+  "evidence": ["src/strayguard/jev.py", "src/strayguard/decide.py", "src/strayguard/cli.py", "README.md"]
+}
