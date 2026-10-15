@@ -1,0 +1,11 @@
+{
+  "name": "VideoJev",
+  "repository": "MCG-NJU/VideoJev",
+  "description": "Independent System One video models that directly score temporal candidates and multiple-choice options for multiple queries over a shared video prefix, returning probabilities and decoded intervals or answers.",
+  "category": "research",
+  "evidence": [
+    "videojev_hf/modeling_videojev.py",
+    "videojev_hf/processing_videojev.py",
+    "README.md"
+  ]
+}
