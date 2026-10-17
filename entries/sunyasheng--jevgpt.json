@@ -1,0 +1,11 @@
+{
+  "name": "JevGPT",
+  "repository": "sunyasheng/JevGPT",
+  "description": "Research agent from the paper \"JevGPT: Thinking Fast and Slow in Autonomous Research\" (arXiv 2610.18272): GPT-5.5 plans searches; in BrowseComp-Plus QA, Jev answers parallel Choice (which source lines hold the answer) and Noul (does the region address it) questions per document region and query; includes reproduction code.",
+  "category": "search",
+  "evidence": [
+    "runtime/pi-serini/src/extensions/jev_find_v1.ts",
+    "runtime/pi-serini/src/extensions/jev_find_batch_v4.ts",
+    "runtime/pi-serini/src/extensions/jev_adaptive_overlap_v1.ts"
+  ]
+}
