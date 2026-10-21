@@ -1,0 +1,7 @@
+{
+  "name": "Decision Models as Guardrails",
+  "repository": "raxITlabs/decision-models-as-guardrails",
+  "description": "Benchmark that runs Jev 1.13.0 and 1.14.0, other decision models, and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks. Jev gets each check as a typed Noul question and code blocks at a probability of 0.5 or more.",
+  "category": "research",
+  "evidence": ["benchmark/goldrails_bench/systemone.py", "REPRODUCE.md"]
+}
