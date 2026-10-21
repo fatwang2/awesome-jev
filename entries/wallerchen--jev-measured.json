@@ -1,0 +1,7 @@
+{
+  "name": "jev-measured",
+  "repository": "WallerChen/jev-measured",
+  "description": "Reproducible Python and Node scripts that call TypeSafe Jev through the Decisions API and record cost, latency, accuracy and raw output against chat models and other decision models, with the raw results committed as JSON.",
+  "category": "research",
+  "evidence": ["bench/headtohead.py", "bench/run.py", "bench/decision-models/run.mjs", "data/measured.json"]
+}
