@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-184 projects.
+186 projects.
 
 ### SDKs
 
@@ -187,12 +187,14 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 - [assay-001](https://github.com/jourdanlabs/assay-001) — ASSAY-001: independent, pre-registered verification of TypeSafe Jev's calibration and type-safety claims\. Split verdict, published in full\.
 - [decider](https://github.com/Mapika/decider) — It is an open reproduction of the "System One" model class \(TypeSafe AI's Jev\), built on Qwen/Qwen3\.5-2B-Base\.
+- [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) — Benchmark that runs Jev 1\.13\.0 and 1\.14\.0, other decision models, and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks\. Jev gets each check as a typed Noul question and code blocks at a probability of 0\.5 or more\.
 - [DeepSearcher search-stopping evaluation](https://github.com/zilliztech/deep-searcher) — Standalone experiment comparing Jev and a generative model as search-stopping policies, with a replay workflow and recorded evaluation results\.
 - [Jev Does Not Play Dice](https://github.com/KantaHayashiAI/jev-does-not-play-dice) — Reproducible evaluation that calls hosted Jev through Vercel AI Gateway on fair random draws and synthetic forecast documents, with recorded outputs and offline recomputation\.
 - [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
 - [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
 - [jev-eval-agent](https://github.com/vinilana/jev-eval-agent) — The repository exists to answer one question: how many steps does the agent need to finish the same task when the LLM picks the tool itself vs\. when Jev \(TypeSafe's classifier\) picks it?
 - [jev-fanout-bench](https://github.com/blowxian/jev-fanout-bench) — Reproducible measurement of how TypeSafe Jev bills and behaves: batched versus one-question-per-call input tokens, per-question and per-language token costs, context limits found by bisection, and answer shifts under batching, translation and rewording, with public request logs\.
+- [jev-measured](https://github.com/WallerChen/jev-measured) — Reproducible Python and Node scripts that call TypeSafe Jev through the Decisions API and record cost, latency, accuracy and raw output against chat models and other decision models, with the raw results committed as JSON\.
 - [jev-phishing-bench](https://github.com/anisselbd/jev-phishing-bench) — Public, reproducible comparison of Jev \(TypeSafe AI's System One model, launched 15 September 2026\) against a classic LLM on one security decision: should an email agent click the link in this email?
 - [jev-rerank-bench](https://github.com/anessbelbati/jev-rerank-bench) — Can a decision model beat dedicated rerankers? TypeSafe Jev vs Cohere Rerank 4 vs ZeroEntropy zerank-2 vs a chat-model baseline: 14 datasets, every raw API response, bootstrap ranges on every gap\.
 - [jev-search-rerank-eval](https://github.com/zhuyansen/jev-search-rerank-eval) — Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval \(9,831 pairs, 164 zh/en queries\) over the Agent Skills Hub catalog, with the judge-circularity bias measured\.
