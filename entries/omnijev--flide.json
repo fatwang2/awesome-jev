@@ -1,0 +1,14 @@
+{
+  "name": "Flide",
+  "repository": "OmniJev/Flide",
+  "description": "Open inference engine for decision models that forks one state into all of its questions in one forward pass, so every answer matches the question asked alone, and serves OneJev, Qwen3.5 and Gemma 4 through /v1/systemone.",
+  "category": "research",
+  "evidence": [
+    "flide/api/server.py",
+    "flide/api/schema.py",
+    "flide/runtime/pack.py",
+    "flide/backbones/__init__.py",
+    "plugins/onejev/flide_onejev/__init__.py",
+    "pyproject.toml"
+  ]
+}
