@@ -6,7 +6,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 
 ## Projects
 
-186 projects.
+187 projects.
 
 ### SDKs
 
@@ -189,6 +189,7 @@ Open-source projects built with [TypeSafe Jev](https://typesafe.ai), with submis
 - [decider](https://github.com/Mapika/decider) — It is an open reproduction of the "System One" model class \(TypeSafe AI's Jev\), built on Qwen/Qwen3\.5-2B-Base\.
 - [Decision Models as Guardrails](https://github.com/raxITlabs/decision-models-as-guardrails) — Benchmark that runs Jev 1\.13\.0 and 1\.14\.0, other decision models, and Amazon Bedrock Guardrails on the same 9,975 labelled guardrail checks\. Jev gets each check as a typed Noul question and code blocks at a probability of 0\.5 or more\.
 - [DeepSearcher search-stopping evaluation](https://github.com/zilliztech/deep-searcher) — Standalone experiment comparing Jev and a generative model as search-stopping policies, with a replay workflow and recorded evaluation results\.
+- [Flide](https://github.com/OmniJev/Flide) — Open inference engine for decision models that forks one state into all of its questions in one forward pass, so every answer matches the question asked alone, and serves OneJev, Qwen3\.5 and Gemma 4 through /v1/systemone\.
 - [Jev Does Not Play Dice](https://github.com/KantaHayashiAI/jev-does-not-play-dice) — Reproducible evaluation that calls hosted Jev through Vercel AI Gateway on fair random draws and synthetic forecast documents, with recorded outputs and offline recomputation\.
 - [jev-agent-failure-benchmark](https://github.com/TokenTrim/jev-agent-failure-benchmark) — This benchmarks Jev \(Typesafe\.ai\) on the text subset of Who&amp;When Pro, an agent-failure-attribution benchmark: given a failed multi-agent run, predict the responsible agent, the decisive step, and the error type\.
 - [jev-dspy-lab](https://github.com/jmanhype/jev-dspy-lab) — Reproducible calibration, confidence-gating, latency, and modeled-cost benchmarks for Jev / TypeSafe System One decisions used in DSPy workflows\.
