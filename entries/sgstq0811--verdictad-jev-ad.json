@@ -1,0 +1,12 @@
+{
+  "name": "VerdictAD",
+  "repository": "sgstq0811/VerdictAD-Jev-AD",
+  "description": "Training-free few-shot industrial anomaly detection that sends Noul questions in the System One state/questions schema to the open Jev-style model Clef-Flash 9B and uses the probabilities to reweight an existing detector's image score and anomaly map.",
+  "category": "research",
+  "evidence": [
+    "verdictad/decider.py",
+    "decide.py",
+    "verdictad/fuse.py",
+    "evaluate.py"
+  ]
+}
